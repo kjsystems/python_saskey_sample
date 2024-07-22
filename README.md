@@ -1,9 +1,9 @@
 ## What is this?
-SAS キー付き URL を生成するサンプル
+Blob Storage にあるファイルの SAS キー付き URL を生成するサンプル
 
 ## HOW TO TEST
-- Azure Storage にファイルを置きます
-  - function_app.py では sampleコンテナ/sample.docx になっているので適宜修正してください。  
+- Blob Storage の Blob コンテナーにファイルを置きます
+  - function_app.py では sample コンテナ / sample.docx になっているので適宜修正してください。  
 ```
 // function_app.py
 container_name = "sample"
@@ -12,6 +12,8 @@ blob_name = "sample.docx"
 - .devcontainer を起動します
   - VSCode から「コマンドパレット」 → 「Dev Containers: Reopen in Container」
 - 下記二つの値を設定します
+  - Blob Storage のアカウント名
+  - Blob Storage のアカウントキー
 ```
 // function_app.py
 account_name = "<your-account-name>"
