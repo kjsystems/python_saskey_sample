@@ -1,4 +1,4 @@
-## Descripiton
+## What is this?
 SAS キー付き URL を生成するサンプル
 
 ## HOW TO TEST
