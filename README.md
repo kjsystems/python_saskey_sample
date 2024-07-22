@@ -6,7 +6,7 @@ SAS キー付き URL を生成するサンプル
   - function_app.py では sampleコンテナ/sample.docx になっているので適宜修正してください。
 - .devcontainer を起動します
   - VSCode から「コマンドパレット」 → Reopen in Container
-- 下記二つの値を設定します
+- 下記二つの値を設定します  
 function_app.py
 ```
 account_name = "<your-account-name>"
