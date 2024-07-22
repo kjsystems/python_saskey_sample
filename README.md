@@ -10,7 +10,7 @@ container_name = "sample"
 blob_name = "sample.docx"
 ```
 - .devcontainer を起動します
-  - VSCode から「コマンドパレット」 → Reopen in Container
+  - VSCode から「コマンドパレット」 → 「Dev Containers: Reopen in Container」
 - 下記二つの値を設定します
 ```
 // function_app.py
