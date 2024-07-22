@@ -11,7 +11,7 @@ blob_name = "sample.docx"
 ```
 - .devcontainer を起動します
   - VSCode から「コマンドパレット」 → 「Dev Containers: Reopen in Container」
-- 下記二つの値を設定します
+- function_app.py で下記二つの値を設定します
   - Blob Storage のアカウント名
   - Blob Storage のアカウントキー
 ```
