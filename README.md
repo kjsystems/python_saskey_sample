@@ -19,4 +19,5 @@ account_key = "<your-account-key>"
 ```
 - F5 でデバッグ実行します
 - ブラウザや 同じフォルダにある `rest.http`（REST Client）で URL を実行します
-- SAS キー付きの URL 出力されます
+- SAS キー付きの URL が出力されます
+- 生成された URL をブラウザで開くとダウンロードできます
