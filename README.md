@@ -18,5 +18,5 @@ account_name = "<your-account-name>"
 account_key = "<your-account-key>"
 ```
 - F5 でデバッグ実行します
-- rest.http を開いてエンドポイントを実行します
+- ブラウザや 同じフォルダにある `rest.http`（REST Client）で URL を実行します
 - SAS キー付きの URL 出力されます
