@@ -1,7 +1,7 @@
 ## What is this?
 Blob Storage にあるファイルの SAS キー付き URL を生成するサンプル
 
-## HOW TO TEST
+## How to test.
 - Blob Storage の Blob コンテナーにファイルを置きます
   - function_app.py では sample コンテナ / sample.docx になっているので適宜修正してください。  
 ```
