@@ -19,7 +19,7 @@ blob_name = "sample.docx"
 account_name = "<your-account-name>"
 account_key = "<your-account-key>"
 ```
-- （参考）期間は 1 日になっています
+- （参考）SAS キーの有効期限は１日になっています
 ```
 // function_app.py
 expiry_time = start_time + datetime.timedelta(days=1)
