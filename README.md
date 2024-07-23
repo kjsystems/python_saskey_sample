@@ -30,3 +30,4 @@ expiry_time = start_time + datetime.timedelta(days=1)
 - 生成された URL をブラウザで開くとダウンロードできます
 ## References
 - [Azure-Samples/AzureStorageSnippets | GitHub](https://github.com/Azure-Samples/AzureStorageSnippets/blob/master/blobs/howto/python/blob-devguide-py/blob_devguide_create_sas.py#L21)
+- [Python を使用してアカウント SAS を作成する | Learn](https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-sas-create-python)
