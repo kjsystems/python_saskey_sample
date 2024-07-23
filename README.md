@@ -3,15 +3,16 @@ Blob Storage にあるファイルの SAS キー付き URL を生成するサン
 
 ## How to test.
 - Blob Storage の Blob コンテナーにファイルを置きます
-  - function_app.py では sample コンテナ / sample.docx になっているので適宜修正してください。  
+  - `function_app.py` では `sample` コンテナ / `sample.docx` になっているので適宜修正してください。  
 ```
 // function_app.py
 container_name = "sample"
 blob_name = "sample.docx"
 ```
-- .devcontainer を起動します
+- `.devcontainer` を起動します
   - VSCode から「コマンドパレット」 → 「Dev Containers: Reopen in Container」
-- function_app.py で下記二つの値を設定します
+  - または GitHub から codespaces での起動
+- `function_app.py` で下記二つの値を設定します
   - Blob Storage のアカウント名
   - Blob Storage のアカウントキー
 ```
