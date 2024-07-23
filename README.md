@@ -25,7 +25,7 @@ account_key = "<your-account-key>"
 expiry_time = start_time + datetime.timedelta(days=1)
 ```
 - F5 でデバッグ実行します
-- ブラウザや 同じフォルダにある `rest.http`（REST Client）で URL を実行します
+- ブラウザまたは同じフォルダにある `rest.http`（REST Client）で URL を実行します
 - SAS キー付きの URL が出力されます
 - 生成された URL をブラウザで開くとダウンロードできます
 ## References
